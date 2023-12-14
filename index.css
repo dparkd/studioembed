@@ -1,32 +1,21 @@
-@font-face { font-family: italic; src: url('italic.otf'); } 
-@font-face { font-family: light; src: url('light.otf'); }
-
 body {
-	font-family: light;
-	padding-top: 24px;
+	font-family: "Times New Roman", serif;
+	text-rendering: geometricPrecision;
+	background: #F7F7F7;
 }
 
 
-.text-row {
-	max-width: 400px;
-	text-align: justify;
-	padding: 20px;
+h1, h2, h3, h4, h5, p {
+	font-weight: 400;
+	margin: 10px;
 }
 
-.title {
-	color: #B1B1B1;
-	font-size: 14px;
+h2 {
+	letter-spacing: -0.07rem;
 }
-
-.body {
-	color: #191919;
-	font-size: 14px;
-	line-height: 25px;
-	letter-spacing: -0.03px;
-}
-
-.italic {
-	font-family: italic;
+h3 {
+	letter-spacing: -0.04rem;
+	opacity: 0.6;
 }
 
 a {
@@ -37,63 +26,64 @@ a:visited {
 	color: black;
 }
 
-.body a:hover {
-	font-style: italic;
+p {
+	line-height: 1.7rem;
+	margin-top: 20px;
+	text-align: justify;
+	letter-spacing: -0.01rem;
 }
 
-.collaborators {
-	font-style: normal;
-	color: #b1b1b1;
+img {
+	width: 70%;
+	margin: 70px 0;
+}
+
+ul {
+	margin-bottom: 60px;
+}
+
+li {
+	line-height: 1.7rem;
+}
+
+.sublist {
+	margin-bottom: 20px;
+}
+
+.container {
+	max-width: 60%;
+	padding: 4rem;
+}
+
+.top-nav {
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 48px;
+}
+
+.left {
+	flex-grow: 3;
+}
+
+.right {
+	flex-shrink: 1;
 }
 
 
-.video-carousel {
-	width: 100%;
-	white-space: nowrap;
-	overflow-x: visible;
-  overflow-y: hidden;
-  display: inline-block;
-}
-
-.video-carousel:hover {
-	cursor: grab;
-}
-
-.video-carousel:active {
-	cursor: grabbing;
-}
-
-.video {
-	max-width: 375px;
-	display: inline-block;
-	white-space: nowrap;
-	overflow-y: hidden;
-}
-
-	video {
-		max-width: 375px;
+@media screen and (max-width: 480px) {
+	.container {
+		max-width: 90%;
+		padding: 10px;
+		margin: 0 auto;
 	}
 
-@media screen and (min-width: 600px) {
-	/* width */
-	/*.video-carousel::-webkit-scrollbar {
-	  display: none;
-	}*/
+	img {
+		width: 100%; 
+	}
 }
 
-/* width */
-.video-carousel::-webkit-scrollbar {
-	height: 2px;
-	display: inline-block;
-}
- 
-.video-carousel::-webkit-scrollbar-track {
-	background: #f1f1f1;
-}
- 
-.video-carousel::-webkit-scrollbar-thumb {
-  background-color: #191919;
-}
+
+
 
 
 
