@@ -1,5 +1,5 @@
 body {
-	font-family: "Times New Roman", serif;
+	font-family: "Inter", san-serif;
 	text-rendering: geometricPrecision;
 	background: white;
 }
@@ -12,6 +12,9 @@ h1, h2, h3, h4, h5, p {
 
 h2 {
 	letter-spacing: -0.07rem;
+	font-size:1.3rem;
+	font-weight: 500;
+	margin-bottom: 0px;
 }
 h3 {
 	letter-spacing: -0.04rem;
@@ -30,7 +33,7 @@ p {
 	line-height: 1.7rem;
 	margin-top: 20px;
 	text-align: justify;
-	letter-spacing: -0.01rem;
+	letter-spacing: -0.05rem;
 }
 
 img {
@@ -40,10 +43,16 @@ img {
 
 ul {
 	margin-bottom: 60px;
+	letter-spacing: -0.05rem;
 }
 
 li {
 	line-height: 1.7rem;
+	letter-spacing: -0.05rem;
+}
+
+i {
+	opacity: 0.8;
 }
 
 .sublist {
@@ -57,7 +66,7 @@ li {
 
 .content-container {
 	width: 50%;
-	padding: 2rem;
+	padding: 3rem;
 }
 
 
