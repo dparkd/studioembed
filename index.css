@@ -58,7 +58,7 @@ li {
 .top-nav {
 	display: flex;
 	align-items: baseline;
-	margin-bottom: 48px;
+	margin-bottom: 0px;
 }
 
 .left {
