@@ -1,7 +1,7 @@
 body {
 	font-family: "Times New Roman", serif;
 	text-rendering: geometricPrecision;
-	background: #F7F7F7;
+	background: white;
 }
 
 
@@ -82,7 +82,31 @@ li {
 	}
 }
 
+.work-container {
+	display: flex;
+	width: 100%; 
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
 
+.work-container .video {
+	box-sizing: border-box;
+  flex: 1;
+  min-width: 33%;
+}
+
+.video video {
+	width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+	.work-container {
+		width: 100%;
+	}
+	.work-container .video {
+		min-width: 100%;
+	}
+}
 
 
 
