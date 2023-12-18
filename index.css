@@ -75,6 +75,7 @@ i {
 	.content-container {
 		width: 90%;
 		padding: 10px;
+		padding-top: 32px;
 		margin: 0 auto;
 	}
 
