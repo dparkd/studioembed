@@ -2,6 +2,8 @@ body {
 	font-family: "Inter", sans-serif;
 	text-rendering: geometricPrecision;
 	background: white;
+	color: #191919;
+	margin: 0 auto;
 }
 
 
@@ -67,8 +69,18 @@ i {
 .content-container {
 	width: 50%;
 	padding: 3rem;
+	margin: 0 auto;
 }
 
+.work-container {
+	margin: 0 auto;
+}
+
+.links a {
+	padding-right: 0.5em;
+	opacity: 0.6;
+	font-style: italic;
+}
 
 
 @media screen and (max-width: 480px) {
