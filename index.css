@@ -7,73 +7,124 @@ body {
 }
 
 .content-container {
-	width: 50%;
+	width: 500pt;
 	margin: 0 auto;
 	text-align: center;
 }
 
-.caption {
-	font-size: 0.8em;
-	opacity: 0.7;
-}
 
-.sublist {
-	padding-top: 20px;
-	opacity: 0.6;
-}
 
-h1 {
-}
+
+/* CORE STYLES */
 
 h2 {
-	margin-top: 4em;
+	margin-bottom: 0px;
+	font-size: 18pt;
+}
+
+h4 {
+	margin-top: 3pt;
+	margin-bottom: 0;
+	font-size: 12pt;
+}
+
+i {
+	font-weight: bold;
+	font-style: normal;
 }
 
 p {
-	line-height: 1.3em;
+	text-indent: 24pt;
+	text-align: justify;
+	font-size: 11pt;
+	line-height: 14pt;
 }
 
-a {
+.links {
+	margin-top: 10pt;
+}
+
+.links a {
+	color: black;
+	text-transform: uppercase;
+	padding: 0pt 5pt;
+	font-size: 9pt;
+}
+
+.links a:visited {
 	color: black;
 }
 
-a:visited {
-	color: black;
+.rule-partial {
+	height: 0pt;
+    width: 96pt;
+    border-bottom: 1pt solid #000000;
+    margin: 20pt auto;
 }
 
-ul {
-	list-style-type: none;
-	padding-left: 0;
+
+
+/* MODIFIERS */
+
+.italic {
+	font-style: italic;
 }
 
-.bold {
-	font-weight: 600;
-	margin-top: 4em;
+.no-margin {
+	margin: 0;
 }
 
-.image-caption {
-	text-align: center;
+
+
+
+/* TABLE STYLES BULLET LIST */
+
+.list {
+	margin-left: 24pt;
 }
 
-.list-item {
-	margin-bottom: 0;
+.list td {
+	vertical-align: top;
 }
 
-.list-description {
-	margin-top: 4px;
+.list .dot {
+	width: 10pt;
+	text-align: left;
 }
 
-img {
-	width: 50%;
+.list td p {
+	margin: 0;
+	text-align: left;
+	text-indent: 0pt;
+	margin-bottom: 5pt;
 }
 
-video {
-	width: 40%;
-	margin: 0 auto;
-	margin-top: 4em;
-}
 
-.full-width-video {
+/* TABLE STYLES TABLE LIST */
+
+.research {
+	border-spacing: 0;
 	width: 100%;
-	margin-top: 10px;
+}
+
+.research p {
+	text-indent: 0;
+	margin: 4pt 8pt;
+}
+
+.research .title {
+	width: 80%;
+}
+
+.research .date {
+	width: 20%;
+	text-align: right;
+}
+
+.research .date p {
+	text-align: right;
+}
+
+.research .gray {
+	background: #EFEFEF;
 }
