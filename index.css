@@ -55,11 +55,38 @@ p {
 	color: black;
 }
 
+a:visited {
+	color: blue;
+}
+
 .rule-partial {
 	height: 0pt;
     width: 96pt;
     border-bottom: 1pt solid #000000;
     margin: 20pt auto;
+}
+
+video {
+}
+
+img {
+	width: 100%;
+}
+
+.research-video {
+	width: 50%;
+	margin-top: 20pt;
+}
+
+.full-width-video {
+	width: 100%;
+	margin-top: 20pt;
+}
+
+.image-caption {
+	text-align: center;
+	text-indent: 0;
+	opacity: 0.5;
 }
 
 
@@ -72,6 +99,14 @@ p {
 
 .no-margin {
 	margin: 0;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.half-width {
+	width: 50%;
 }
 
 
@@ -127,4 +162,15 @@ p {
 
 .research .gray {
 	background: #EFEFEF;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	body {
+		padding: 12pt;
+	}
+	.content-container {
+		width: 100%;
+	}
 }
