@@ -87,31 +87,31 @@ sliderUniverse.addEventListener('mouseleave', stopDraggingUniverse, false);
 
 
 
-// Other
-const sliderOther = document.querySelector('#other-slider');
-let mouseDownOther = false;
-let startXOther, scrollLeftOther;
+// Typo
+const sliderTypo = document.querySelector('#typo-slider');
+let mouseDownTypo = false;
+let startXTypo, scrollLeftTypo;
 
 let startDraggingOther = function (e) {
-  mouseDownOther = true;
-  startXOther = e.pageX - sliderOther.offsetLeft;
-  scrollLeftOther = sliderOther.scrollLeft;
+  mouseDownTypo = true;
+  startXTypo = e.pageX - sliderTypo.offsetLeft;
+  scrollLeftTypo = sliderTypo.scrollLeft;
 };
 
 let stopDraggingOther = function (event) {
-  mouseDownOther = false;
+  mouseDownTypo = false;
 };
 
-sliderOther.addEventListener('mousemove', (e) => {
+sliderTypo.addEventListener('mousemove', (e) => {
   e.preventDefault();
-  if(!mouseDownOther) { return; }
-  const x = e.pageX - sliderOther.offsetLeft;
-  const scroll = x - startXOther;
-  sliderOther.scrollLeft = scrollLeftOther - scroll;
+  if(!mouseDownTypo) { return; }
+  const x = e.pageX - sliderTypo.offsetLeft;
+  const scroll = x - startXTypo;
+  sliderTypo.scrollLeft = scrollLeftTypo - scroll;
 });
 
 // Add the event listeners
-sliderOther.addEventListener('mousedown', startDraggingOther, false);
-sliderOther.addEventListener('mouseup', stopDraggingOther, false);
-sliderOther.addEventListener('mouseleave', stopDraggingOther, false);
+sliderTypo.addEventListener('mousedown', startDraggingOther, false);
+sliderTypo.addEventListener('mouseup', stopDraggingOther, false);
+sliderTypo.addEventListener('mouseleave', stopDraggingOther, false);
 
