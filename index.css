@@ -193,4 +193,9 @@ a:visited {
 		float: left;
 		padding-top: 20px;
 	}
+
+	.video-carousel {
+		flex-direction: column;
+		align-items: center;
+	}
 }
