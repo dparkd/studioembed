@@ -1,6 +1,6 @@
 body {
 	margin-bottom: 200px;
-	color: #191919;
+	color: #232323;
 	text-align: center;
 	text-rendering: geometricPrecision;
 	line-height: 24px;
@@ -61,14 +61,12 @@ h1 {
 	margin-top: 1pt;
 	margin-bottom: 0;
 	font-size: 16pt;
-	color: #191919;
 	font-weight: 390;
 }
 
 h2 {
 	margin-bottom: 0;
 	font-size: 14pt;
-	color: #191919;
 	font-weight: 390;
 }
 
@@ -84,9 +82,10 @@ h2 {
 }
 
 p {
-	font-size: 11pt;
-	line-height: 14pt;
+	font-size: 12pt;
+	line-height: 16pt;
 	font-weight: 400;
+	letter-spacing: .2px;
 }
 
 .links {
@@ -94,16 +93,16 @@ p {
 }
 
 .link {
-	color: black;
-	font-size: 11pt;
+	color: #232323;
+	font-size: 12pt;
 }
 
 .links a:visited {
-	color: black;
+	color: #232323;
 }
 
 a:visited {
-	color: black;
+	color: #232323;
 }
 
 

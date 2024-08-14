@@ -1,0 +1,59 @@
+
+
+/* TABLE STYLES TABLE LIST */
+
+.research {
+	border-spacing: 0;
+	width: 100%;
+}
+
+.research p {
+	text-indent: 0;
+	margin: 4pt 8pt;
+}
+
+.research .title {
+	width: 60%;
+}
+
+.disabled p {
+	text-decoration: none;
+	color: gray;
+}
+
+.disabled a:hover {
+	pointer-events: none;
+}
+
+.research .date {
+	width: 20%;
+	text-align: right;
+}
+
+.research .type {
+	width: 20%;
+	text-align: right;
+}
+
+.research .date p {
+	text-align: right;
+}
+
+.research .graybg {
+	background: #EFEFEF;
+}
+
+.research .graybg p {
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	body {
+		padding: 12pt;
+	}
+	.content-container {
+		width: 100%;
+	}
+}
