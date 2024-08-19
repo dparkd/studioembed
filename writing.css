@@ -1,5 +1,5 @@
 .content-container {
-    width: 650px;
+    max-width: 650px;
     padding-top: 50px;
 }
 
@@ -20,6 +20,7 @@ p {
     line-height: 24px;
     font-weight: 450;
     font-size: 12pt;
+    margin-top: 0;
 }
 
 .caption {
@@ -35,8 +36,51 @@ p {
     padding-top: 32px;
 }
 
+.media-container {
+    border-radius: 24px;
+    border: #f1f1f1 solid 1px;
+    position: relative;
+    display: block;
+    margin-top: 32px;
+    max-width: 626px; 
+    height: 530px;
+}
+
+.media-container-raw {
+    border-radius: 24px;
+    border: #f1f1f1 solid 1px;
+    position: relative;
+    display: flex;
+    padding-bottom: 0;
+    margin-top: 32px;
+    overflow: hidden;
+    max-width: 626px; 
+}
+
+.phone img {
+    width: 242px; 
+    height: auto;
+    padding-top: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.phone video {
+    width: 206px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
 img {
     width: 100%;
-    padding-top: 24px;
-    padding-bottom: 0px;
+    height: auto;
 }
+
